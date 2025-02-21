@@ -20,7 +20,7 @@ L.Marker.prototype.options.icon = DefaultIcon;
 
 const MapComponent = () => {
   // Use useMemo to memoize the location array
-  const location = useMemo(() => [17.2473, 80.1514], []);
+  const location = useMemo(() => [12.960408, 77.648132], []);
 
   const mapRef = useRef(); // Reference to the map
 
@@ -39,7 +39,7 @@ const MapComponent = () => {
       whenCreated={(mapInstance) => (mapRef.current = mapInstance)} // Save the map instance to ref
       scrollWheelZoom={false} // Disable zooming with the scroll wheel
       doubleClickZoom={false} // Disable zooming by double-clicking
-    //   dragging={false} // Disable dragging the map
+      //   dragging={false} // Disable dragging the map
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

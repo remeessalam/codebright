@@ -87,7 +87,7 @@ export const companyDetails = {
   phone: "+91-6786437376",
   whatsapp: "6786437376",
   address:
-    " Unit 101, Oxford Towers, 139, HAL Old Airport Rd Kodihalli, Bangalore, Kartnataka, India,560008",
+    "Unit 101, Oxford Towers, 139, HAL Old Airport Rd Kodihalli, Bangalore, Kartnataka, India,560008",
   email: "abc@xyz.com",
 };
 
