@@ -14,15 +14,11 @@ const WebsiteHeader = () => {
   };
 
   return (
-    <div className="py-4 fixed top-0 w-full bg-black/60 backdrop-blur-md z-50 text-white">
+    <div className="py-4 fixed top-0 w-full bg-white/60 backdrop-blur-md z-50 text-white">
       <div className="wrapper flex justify-between items-center gap-10">
         <div className="flex justify-between items-center gap-20 w-full pl-[1rem] lg:pl-0">
           <Link to="/" className="relative">
-            <img
-              src={logoImg}
-              className="w-[10rem]"
-              alt="logo"
-            />
+            <img src={logoImg} className="w-[5rem]" alt="logo" />
           </Link>
           <div className="lg:flex items-center gap-10 hidden">
             {routes.map(({ name, path }) => (

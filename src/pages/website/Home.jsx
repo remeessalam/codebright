@@ -33,7 +33,9 @@ const Home = () => {
               IT Services
             </div>
             <h1 className="heading-1">
-              Delivering <br /> Next-Generation <br /> Technology Solutions
+              Welcome to <span className="text-secondary">Code Bright</span>
+              <br /> - Shaping the Future of <br />
+              Digital Innovation
             </h1>
             <p className="desc">
               Expert IT services tailored to your business needs.
@@ -56,21 +58,24 @@ const Home = () => {
           <div data-aos="fade-right" className="flex h-full flex-col gap-7">
             <div className="flex flex-col gap-7 text-center lg:text-start">
               <h2 className="heading-2">
-                Driving Operational Excellence Through Cutting-Edge Technology.
+                Transforming Ideas into Impactful Technology Solutions
               </h2>
               <p className="desc">
-                At AI Company, we are committed to delivering
-                high-quality digital solutions tailored to meet the demands of
-                today’s fast-evolving business landscape. Driven by a passion
-                for innovation, creativity, and excellence, we approach each
-                project with a commitment to achieving impactful results. As
-                your trusted technology partner, we turn bold ideas into reality
-                through advanced technology and creative digital strategies. Our
-                core strengths include Web Development, App Development, Chatbot
-                Development, Machine Learning Solutions, Virtual Reality (VR)
-                and Augmented Reality (AR) Development, Computer Vision and Game
-                Development—enabling businesses to not only adapt but thrive and
-                grow in a competitive digital world.
+                At Code bright, we are at the forefront of artificial
+                intelligence innovation, dedicated to making cutting-edge AI
+                accessible, intuitive, and transformative. Our mission is to
+                empower businesses, developers and organizations with the tools,
+                knowledge, and resources to harness the power of AI in practical
+                and impacts ways.
+                <br />
+                <br />
+                We specialize in creating AI-driven solutions that streamline
+                operations, optimize decision-making, and unlock new
+                possibilities across industries. Code bright offers
+                comprehensive services designed to integrate seamlessly into
+                your existing workflow. We believe in the transformative
+                potential of AI and are committed to driving the future of
+                intelligent technology.
               </p>
             </div>
             <div className="flex gap-5 mt-4 justify-center lg:justify-start">

@@ -29,7 +29,27 @@ import { ReactComponent as IosIcon } from "./assets/svgs/iosdevelopment.svg";
 import { ReactComponent as AndroidIcon } from "./assets/svgs/androiddevelopment.svg";
 import { ReactComponent as FlutterIcon } from "./assets/svgs/flutterdevelopment.svg";
 import { ReactComponent as HybridAppIcon } from "./assets/svgs/hybridappdevelopment.svg";
+// porfolio image
+// Import all images at the top (Web Development)
+import FiveGHomesImg from "./assets/web-development-portfolio/5ghomes.png";
+import BayutImg from "./assets/web-development-portfolio/bayut.png";
+import ColdCreekcapImg from "./assets/web-development-portfolio/cold creekcap.png";
+import EmergencyMusicImg from "./assets/web-development-portfolio/emergency music .png";
+import FlatiornImg from "./assets/web-development-portfolio/flatiorn.png";
+import MavenImg from "./assets/web-development-portfolio/maven.png";
+import MenissaCateringsImg from "./assets/web-development-portfolio/menissa caterings.png";
+import MethodistImg from "./assets/web-development-portfolio/methodist.png";
+import ThinkRealityImg from "./assets/web-development-portfolio/think reality.png";
 
+// Import all images at the top (App Development)
+import DubaiTravelGuideImg from "./assets/app-development-portfolio/dubai travel guide.png";
+import EloraHairPalourImg from "./assets/app-development-portfolio/elora hair palour.png";
+import EvansFrancisImg from "./assets/app-development-portfolio/evans francis.png";
+import HouseOfDeliverenceImg from "./assets/app-development-portfolio/house of deliverence.png";
+import MybitsShopImg from "./assets/app-development-portfolio/mybitsshop.png";
+import NamazImg from "./assets/app-development-portfolio/namaz.png";
+import PoteaImg from "./assets/app-development-portfolio/potea.png";
+import RentopBikeAndCarImg from "./assets/app-development-portfolio/rentop bike and car.png";
 import { lazy } from "react";
 const Home = lazy(() => import("./pages/website/Home"));
 const Services = lazy(() => import("./pages/website/Services"));
@@ -64,9 +84,10 @@ export {
 
 // company details
 export const companyDetails = {
-  phone: "+0000000000",
-  whatsapp: "+0000000000",
-  address: "ABC Street, City, Country",
+  phone: "+91-6786437376",
+  whatsapp: "6786437376",
+  address:
+    " Unit 101, Oxford Towers, 139, HAL Old Airport Rd Kodihalli, Bangalore, Kartnataka, India,560008",
   email: "abc@xyz.com",
 };
 
@@ -196,51 +217,93 @@ export const allServices = [
   {
     id: 1,
     title: "Web Development",
-    desc: "Crafting modern, responsive, and scalable websites that deliver outstanding user experiences. From front-end to back-end, our web solutions are tailored to meet your business needs.",
-    detailContent:
-      "At AI Company, we specialize in delivering high-performance websites and digital platforms that help businesses thrive online. From custom web development to responsive design, we build solutions that are both user-friendly and visually stunning. Let's turn your vision into a reality.",
+    desc: "Your website is the face of your business in the digital world. It’s crucial that it not only looks good but also functions seamlessly to meet your business goals. At Code Bright, we design and build custom websites that provide an exceptional user experience while serving as powerful marketing and operational tools for your business.",
+    detailContent: `Your website is the face of your business in the digital world. It’s crucial that it not only looks good but also functions seamlessly to meet your business goals. At Code Bright, we design and build custom websites that provide an exceptional user experience while serving as powerful marketing and operational tools for your business.
+
+What We Offer:
+ Custom Website Design & Development: Whether you need a simple site or a complex, feature-rich platform, we create websites that reflect your brand and connect with your audience.
+ E-commerce Solutions: We design secure and user-friendly e-commerce platforms that allow you to sell products online effortlessly, helping you grow your digital presence and reach more customers.
+ Mobile-Responsive Design: Our websites are fully optimized for all devices, ensuring a consistent experience across desktops, tablets, and smartphones.
+ Content Management Systems (CMS): We integrate user-friendly CMS platforms so you can manage and update your content with ease.
+ Search Engine Optimization (SEO): We help improve your website’s visibility in search engines, driving organic traffic and boosting your online presence.
+ Web Application Development: We build custom web applications that streamline your business processes, enhance productivity, and provide tailored functionality to meet your needs.
+
+Our goal is to create websites that not only look great but also perform well, helping your business grow in the digital landscape.`,
   },
   {
     id: 2,
     title: "Mobile App Development",
-    desc: "Creating high-performance mobile applications for iOS and Android that engage users and drive business growth. Our apps are designed with a focus on usability, speed, and seamless functionality.",
-    detailContent:
-      "At AI Company, we specialize in creating intuitive, high-performing mobile applications tailored to meet the unique needs of businesses across industries. Our expert team combines technical expertise with creative design to develop apps that drive engagement and growth.",
+    desc: "In today’s world, mobile apps are essential for connecting with customers and providing value on the go. At Code Bright, we develop powerful, user-friendly mobile apps for iOS, Android, and cross-platform solutions, designed to meet the needs of both your business and your customers.",
+    detailContent: `In today’s world, mobile apps are essential for connecting with customers and providing value on the go. At Code Bright, we develop powerful, user-friendly mobile apps for iOS, Android, and cross-platform solutions, designed to meet the needs of both your business and your customers.
+
+Our Mobile App Services Include:
+ Native iOS & Android Development: We specialize in creating high-quality native apps that are optimized for performance, functionality, and user experience on iOS and Android devices.
+ Cross-Platform Development: Using frameworks like React Native and Flutter, we develop apps that work across both iOS and Android platforms, saving you time and resources while delivering a great user experience.
+ App Design & UX/UI: We design beautiful, intuitive interfaces that make your app a joy to use, ensuring a seamless experience for your users.
+ App Testing & Quality Assurance: Every app we build undergoes rigorous testing to ensure it performs flawlessly and is free of bugs.
+ App Maintenance & Support: After launch, we offer ongoing maintenance to keep your app running smoothly and up-to-date with the latest features.
+
+We focus on delivering mobile experiences that not only meet your business objectives but also create lasting engagement with your users.`,
   },
   {
     id: 3,
-    title: "Chatbots",
-    desc: "Developing intelligent chatbots to automate customer interactions, streamline processes, and enhance user engagement. Our chatbots are powered by advanced natural language processing for accurate and human-like conversations.",
-    detailContent:
-      "At AI Company, we specialize in developing AI-powered chatbots that streamline customer support, enhance user engagement, and improve business efficiency. Whether you're looking for a customer service assistant or an interactive sales bot, we build tailored solutions that understand and respond to your users in real time.",
+    title: "VR & AR Development",
+    desc: "Virtual Reality (VR) and Augmented Reality (AR) are revolutionizing the way businesses engage with their audiences. Whether it’s providing immersive product experiences or enhancing training programs, we specialize in creating customized VR and AR solutions that take your business to new heights.",
+    detailContent: `Virtual Reality (VR) and Augmented Reality (AR) are revolutionizing the way businesses engage with their audiences. Whether it’s providing immersive product experiences or enhancing training programs, we specialize in creating customized VR and AR solutions that take your business to new heights.
+
+Our VR & AR Services Include:
+ Virtual Tours & Experiences: Let your customers experience your products or services in an entirely new way with interactive, immersive virtual tours—ideal for real estate, education, tourism, and more.
+ AR for Retail & Product Demos: Using AR, we help businesses bring their products to life through interactive demos, allowing customers to experience and visualize items before making a purchase.
+ Training & Simulation: We create VR-based training simulations that allow employees to learn new skills in a realistic yet risk-free environment.
+ Custom VR/AR Solutions: Whether for marketing, education, or customer engagement, we design tailored VR and AR solutions that meet your specific business needs.
+
+Our goal is to help businesses harness the power of VR and AR to create unforgettable experiences that engage, educate, and entertain.`,
   },
   {
     id: 4,
-    title: "Machine Learning Solutions",
-    desc: "Leveraging data-driven insights to build predictive models, automate processes, and unlock new opportunities. Our machine learning solutions are designed to optimize performance and drive innovation.",
-    detailContent:
-      "AI Company was founded with the vision of helping businesses harness the full potential of artificial intelligence and machine learning. With expertise in data science, AI engineering, and algorithm development, our team provides tailored solutions that address real business problems. We are committed to pushing the boundaries of what’s possible with data-driven insights and intelligent automation.",
+    title: "Blockchain Development",
+    desc: "Blockchain technology is transforming industries by providing secure, transparent, and decentralized solutions that remove intermediaries and enhance trust. At Code Bright, we design and develop blockchain systems that offer enhanced security, transparency, and reliability for a range of business applications.",
+    detailContent: `Blockchain technology is transforming industries by providing secure, transparent, and decentralized solutions that remove intermediaries and enhance trust. At Code Bright, we design and develop blockchain systems that offer enhanced security, transparency, and reliability for a range of business applications.
+
+Our Blockchain Services Include:
+ Custom Blockchain Solutions: We develop blockchain applications tailored to your business, offering security, transparency, and efficiency in areas like supply chain management, financial services, and more.
+ Smart Contract Development: We build smart contracts that automate and enforce agreements securely, reducing the need for intermediaries and minimizing risks.
+ Decentralized Applications (DApps): We create decentralized applications that run on blockchain networks, providing users with secure and transparent solutions for a variety of industries.
+ Cryptocurrency Development: If you’re looking to launch a cryptocurrency or a secure token system, we provide expertise in blockchain and crypto development to ensure your success.
+ Blockchain Integration: We help integrate blockchain into your existing systems, improving efficiency, transparency, and security across your business operations.
+
+By leveraging the power of blockchain, we help businesses adopt the latest technologies to improve security, streamline processes, and build trust with customers.`,
   },
   {
     id: 5,
     title: "Game Development",
-    desc: "At AI Company, we specialize in game development, creating immersive and enjoyable gaming experiences.",
-    detailContent:
-      "At AI Company, we don’t just build games—we create worlds. Our team of passionate developers, artists, and storytellers brings your ideas to life with captivating gameplay, stunning visuals, and unforgettable narratives. Whether it’s an action-packed adventure or a mind-bending puzzle, our games are designed to transport players into new realms and keep them engaged.",
+    desc: "The gaming industry is booming, and creating a unique, engaging experience is key to success. At Code Bright, we specialize in building games that captivate players and provide memorable experiences. Whether it’s a mobile game, a VR experience, or a complex console game, we have the expertise to bring your ideas to life.",
+    detailContent: `The gaming industry is booming, and creating a unique, engaging experience is key to success. At Code Bright, we specialize in building games that captivate players and provide memorable experiences. Whether it’s a mobile game, a VR experience, or a complex console game, we have the expertise to bring your ideas to life.
+
+Our Game Development Services Include:
+ 2D & 3D Game Development: From simple 2D games to complex 3D experiences, we have the expertise to create games that engage players and keep them coming back for more.
+ Cross-Platform Game Development: We design and build games that can be enjoyed on multiple platforms, whether it’s mobile, console, or PC.
+ Game Design & Mechanics: We create intuitive game mechanics and compelling gameplay that keep players entertained while ensuring smooth performance and an immersive experience.
+ Quality Assurance & Testing: We thoroughly test every aspect of the game to ensure it’s free of bugs, performs well, and delivers the best possible experience to players.
+ Post-Launch Support: Our work doesn’t end when the game is launched. We offer ongoing support to ensure your game remains fresh with regular updates, bug fixes, and new features.
+
+We create games that entertain, challenge, and immerse players, helping your game stand out in an increasingly competitive market.`,
   },
   {
     id: 6,
-    title: "Computer Vision",
-    desc: "Utilizing advanced computer vision techniques to analyze visual data, enabling smart automation, enhanced security, and actionable insights. From object detection to facial recognition, our solutions are precise and reliable.",
-    detailContent:
-      "At AI Company, we specialize in cutting-edge computer vision technology that enables machines to interpret and act on visual data. Our AI-driven solutions power automation, enhance security, and provide deep insights across industries. From object detection to video analysis, we help businesses transform raw visual data into actionable insights.",
-  },
-  {
-    id: 7,
-    title: "Virtual Reality (VR) and Augmented Reality (AR) Development",
-    desc: "Immerse your audience with cutting-edge VR and AR experiences that redefine engagement and elevate brand perception.",
-    detailContent:
-      "At AI Company, we specialize in creating interactive augmented reality experiences that engage users, enhance brand interaction, and drive innovation. From retail and marketing to education and gaming, our AR solutions provide immersive experiences that blend the digital with the real world, offering limitless possibilities for engagement and creativity.",
+    title: "Cloud Computing Services",
+    desc: "Cloud computing is essential for businesses that want to scale, collaborate, and stay agile in today’s fast-paced world. At Code Bright, we offer cloud solutions that help you save on infrastructure costs, improve accessibility, and ensure data security. Whether you need to migrate to the cloud, manage your cloud infrastructure, or improve business continuity, we’ve got you covered.",
+    detailContent: `Cloud computing is essential for businesses that want to scale, collaborate, and stay agile in today’s fast-paced world. At Code Bright, we offer cloud solutions that help you save on infrastructure costs, improve accessibility, and ensure data security. Whether you need to migrate to the cloud, manage your cloud infrastructure, or improve business continuity, we’ve got you covered.
+
+Our Cloud Computing Services Include:
+ Cloud Migration: We help businesses transition from on-premise systems to cloud platforms, ensuring a seamless migration with minimal disruption to your operations.
+ Cloud Infrastructure Management: Our team handles the management and optimization of your cloud infrastructure, ensuring that it’s secure, scalable, and performs at its best.
+ Private & Public Cloud Solutions: We design cloud solutions tailored to your needs, whether you require the security of a private cloud or the flexibility of a public cloud service.
+ Hybrid Cloud Solutions: For businesses that require both on-premise and cloud resources, we offer hybrid cloud solutions that provide the best of both worlds.
+ Cloud Security: We implement robust security protocols to safeguard your data and applications in the cloud, with proactive monitoring and threat detection.
+ Disaster Recovery: Our disaster recovery solutions ensure that your data is backed up and your business can quickly recover from unexpected disruptions.
+
+With our cloud services, you’ll be able to scale your business efficiently, reduce costs, and ensure that your operations remain flexible and secure.`,
   },
 ];
 
@@ -256,7 +319,7 @@ export const whyChooseUsContent = [
   },
   {
     title: "Security and Reliability",
-    desc: "At AI Company, we take security seriously. Our solutions are built with stringent security protocols to safeguard your business data and protect it from cyber threats.",
+    desc: "At Code Bright, we take security seriously. Our solutions are built with stringent security protocols to safeguard your business data and protect it from cyber threats.",
   },
   {
     title: "Long-Term Partnerships",
@@ -269,59 +332,111 @@ export const whyChooseUsContent = [
 ];
 
 // portfolio images (web development)
+
 export const webPortfolio = [
   {
     id: 1,
-    img: require("./assets/images/web_projects/1.webp"),
-    title: "FE-Finance",
+    img: FiveGHomesImg,
+    title: "5g Homes",
+    link: "https://5ghighspeedinternet.co",
   },
   {
     id: 2,
-    img: require("./assets/images/web_projects/2.webp"),
-    title: "Ocxee",
+    img: BayutImg,
+    title: "Bayut",
+    link: "https://www.bayut.com",
   },
   {
     id: 3,
-    img: require("./assets/images/web_projects/3.webp"),
-    title: "Leaderbridge",
+    img: ColdCreekcapImg,
+    title: "Cold Creekcap",
+    link: "https://www.coldcreekcap.com",
   },
   {
     id: 4,
-    img: require("./assets/images/web_projects/4.webp"),
-    title: "Gigzio",
+    img: EmergencyMusicImg,
+    title: "Emergency Music",
+    link: "https://www.figma.com/proto/GwlIMQuIuFevhOEp8moALy/emergence-music-distribuBon?page-id=6298%3A7215&type=design&node-id=6298-7776&viewport=407%2C314%2C0.11&t=QCtz7M4USn6gI1CG-1&scaling=min-zoom",
   },
   {
     id: 5,
-    img: require("./assets/images/web_projects/5.webp"),
-    title: "FE Group",
+    img: FlatiornImg,
+    title: "Flatiorn",
+    link: "",
   },
   {
     id: 6,
-    img: require("./assets/images/web_projects/6.webp"),
-    title: "V Talkz",
+    img: MavenImg,
+    title: "Maven",
+    link: "",
+  },
+  {
+    id: 7,
+    img: MenissaCateringsImg,
+    title: "Menissa Caterings",
+    link: "https://messinascatering.com",
+  },
+  {
+    id: 8,
+    img: MethodistImg,
+    title: "Methodist",
+    link: "",
+  },
+  {
+    id: 9,
+    img: ThinkRealityImg,
+    title: "Think Reality",
+    link: "https://thinkrealty.ae",
   },
 ];
 
-// portfolio images (app development)
 export const appPortfolio = [
   {
     id: 1,
-    img: require("./assets/images/app_projects/1.webp"),
-    title: "PartEx",
+    img: DubaiTravelGuideImg,
+    title: "Dubai Travel Guide",
+    link: "https://play.google.com/store/apps/details?id=com.eBps.dubai.travel.guide&pcampaignid=web_share",
   },
   {
     id: 2,
-    img: require("./assets/images/app_projects/2.webp"),
-    title: "Find A Driver",
+    img: EloraHairPalourImg,
+    title: "Elora Hair Palour",
+    link: "https://play.google.com/store/apps/details?id=app.barbera.io&pcampaignid=web_share",
   },
   {
     id: 3,
-    img: require("./assets/images/app_projects/3.webp"),
-    title: "Artisan Express",
+    img: EvansFrancisImg,
+    title: "Evans Francis",
+    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.evansfrancis&pcampaignid=web_share",
   },
   {
     id: 4,
-    img: require("./assets/images/app_projects/4.webp"),
-    title: "House of Deliverance",
+    img: HouseOfDeliverenceImg,
+    title: "House of Deliverence",
+    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.hod&pcampaignid=web_share",
+  },
+  {
+    id: 5,
+    img: MybitsShopImg,
+    title: "Mybits Shop",
+    link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
+  },
+  {
+    id: 6,
+    img: NamazImg,
+    title: "Namaz",
+    link: "https://play.google.com/store/apps/details?id=com.iccbrossard.prayerBmes&pcampaignid=web_share",
+  },
+  {
+    id: 7,
+    img: PoteaImg,
+    title: "Potea",
+    link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
+  },
+  {
+    id: 8,
+    img: RentopBikeAndCarImg,
+    title: "Rentop Bike and Car",
+    link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
   },
 ];

@@ -45,32 +45,59 @@ const AboutUs = () => {
             <div data-aos="fade-left" className="h-full">
               <h2 className="heading-2 text-start mb-3">About Us</h2>
               <p className="desc text-start">
-                At parvesha, we are a team of passionate developers, engineers,
-                and designers specializing in web development, mobile app
-                development, chatbot development, machine learning, computer
-                vision, virtual reality, and augmented reality. We transform
-                innovative ideas into impactful digital experiences, delivering
-                exceptional results on time, every time. Our diverse expertise
-                enables us to cater to businesses of all sizes, providing
-                solutions that drive digital transformation.
+                About Us At Code Bright, we are passionate about delivering
+                innovative technology solutions that help businesses thrive in
+                today’s fast-paced digital world. Our goal is to empower
+                organizations by creating customized solutions that address
+                unique challenges, enhance customer experiences, and open new
+                avenues for growth. We take pride in being a reliable partner
+                that brings ideas to life through expertise, creativity, and a
+                commitment to excellence.
                 <br />
                 <br />
-                We create modern, responsive websites, high-performance mobile
-                apps, intelligent chatbots, data-driven machine learning models,
-                and advanced computer vision applications. Our VR and AR
-                solutions deliver immersive and engaging user experiences. Our
-                skilled professionals stay ahead of industry trends to offer the
-                best solutions, prioritizing on-time delivery, quality, and a
-                client-centric approach.
+                We’re not just a technology provider—we’re a team of skilled
+                professionals who collaborate closely with clients to solve
+                complex problems and drive meaningful change. Whether we’re
+                crafting a custom website or developing immersive mobile apps,
+                our focus is always on delivering results that matter.
+                <br />
+              </p>
+            </div>
+          </div>
+          <div className="mt-[3rem] flex flex-col gap-8">
+            <div>
+              <h1 className="heading-2 text-center mb-3">Our Vision</h1>
+              <p className="mt-5">
+                Our vision is clear: to lead the way in shaping the future of
+                technology and its impact on businesses globally. We strive to
+                be a driving force for digital transformation, helping companies
+                unlock their full potential through innovation. We believe in
+                the power of technology to create lasting value for businesses,
+                no matter their size or industry. <br />
+                <br />
+                At the core of our vision is a belief in collaboration,
+                integrity, and progress—values that guide us as we develop
+                transformative solutions for our clients and help them stay
+                ahead of the curve in an ever-changing digital landscape.
+              </p>
+            </div>
+            <div>
+              <h1 className="heading-2 text-center mb-3"> Our Mission</h1>
+              <p className="mt-5">
+                The mission of Code Bright is simple: to provide businesses with
+                the digital tools and solutions they need to succeed. We are
+                committed to offering top-tier technology services that not only
+                address the challenges of today but also pave the way for a
+                prosperous future. Our focus is on delivering high-quality,
+                customized solutions that drive efficiency, improve performance,
+                and help businesses stay competitive in an increasingly digital
+                world.
                 <br />
                 <br />
-                We believe in building long-term relationships by delivering
-                tailored solutions that align with your business goals. Our
-                commitment to excellence ensures products that are functional,
-                secure, and optimized for performance. Driven by innovation, we
-                bring fresh perspectives to every project, empowering businesses
-                to succeed in the digital era. Let’s build something great
-                together—your success is our priority.
+                We view technology as a strategic asset, and our goal is to
+                ensure that every solution we provide is perfectly aligned with
+                the objectives of our clients, making their digital journey
+                smoother, smarter, and more impactful.
               </p>
             </div>
           </div>
@@ -92,7 +119,7 @@ const AboutUs = () => {
                     Innovation at Heart
                   </h6>
                   <p className="desc mt-2">
-                    At AI Company, innovation is our driving force. We
+                    At Code Bright, innovation is our driving force. We
                     constantly explore emerging technologies and trends to
                     create future-ready solutions that push the boundaries of
                     what’s possible. We aim to deliver solutions that not only
@@ -211,7 +238,7 @@ const AboutUs = () => {
           </div>
         </div>
         {/* <div className="wrapper mt-[5rem]">
-          <h2 data-aos='fade-up' className="heading-2">Why Choose AI Company?</h2>
+          <h2 data-aos='fade-up' className="heading-2">Why Choose Code Bright?</h2>
           <ul className="mt-[2rem] flex flex-col gap-3 list-disc list-outside text-start">
           {whyChooseUsContent.map((item) => (
             <li data-aos='fade-up' key={item.id} className="text-primary">
@@ -224,7 +251,7 @@ const AboutUs = () => {
       </div>
       <UnlockEfficiency />
       {/* <OurServices length={3} /> */}
-      {/* <Testimonials/> */}
+      <Testimonials />
     </>
   );
 };
